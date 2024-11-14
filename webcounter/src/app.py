@@ -17,3 +17,4 @@ def increment():
 def reset():
     cnt.reset()
     return redirect("/")
+
