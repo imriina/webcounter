@@ -14,3 +14,10 @@ When button pressed twice the counter is two
     Click Button  Paina
     Click Button  Paina
     Page Should Contain  nappia painettu 2 kertaa
+
+When value is set it changes correctly
+    Go To  ${HOME_URL}
+    Input text  amount  6
+    Click Button  aseta
+    Page Should Contain  nappia painettu 6 kertaa
+
